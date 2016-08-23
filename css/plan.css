@@ -1,0 +1,133 @@
+*{
+	margin: 0; padding: 0;
+}
+
+#scrollMap{
+	width: 512px;
+	height: 768px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #aaa;
+}
+
+#scrollmap1{
+	width: 512px;
+	height: 768px;
+	background: url(../img/img_bg_level_1.jpg);
+	position: absolute;
+}
+
+#scrollmap2{
+	width: 512px;
+	height: 768px;
+	background: url(../img/img_bg_level_1.jpg);
+	position: absolute;
+	top: -768px;
+}
+
+#map{
+	width: 512px;
+	height: 768px;
+	position: absolute;
+}
+
+#hero{
+	width: 80px;
+	height: 60px;
+	position: absolute;
+	left: 300px;
+	top: 400px;
+}
+
+#gameOverPage{
+	width: 512px;
+	height: 768px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	
+}
+
+#gameOverPage #panel{
+	width: 400px;
+	height: 300px;
+	background: url(../img/panel.png);
+	background-size: 100% 100%;
+	margin: 200px auto;
+}
+
+#gameOverPage #panel #panelScore{
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 48px;
+	color: red;
+	line-height: 100px;
+}
+
+#restartBtn{
+	width: 240px;
+	height: 70px;
+	background: url(../img/button.png);
+	background-size: 100% 100%;
+	margin: 100px auto;	/*上下边距100px 左右auto*/
+	text-align: center;
+	line-height: 70px;
+	font-family: "arial black";
+	color: black;
+	font-size: 24px;
+}
+#startPage{
+	width: 512px;
+	height: 768px;
+	background: url(../img/img_bg_logo.jpg);
+	position: absolute;
+	/*设置堆叠顺序*/
+	z-index: 999;
+	
+	/*opacity: 0.5;*/
+}
+#startPage #playBtn{
+	width: 240px;
+	height: 70px;
+	background: url(../img/button.png);
+	background-size: 100% 100%;
+	margin: 200px auto;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #000;
+	line-height: 60px;
+}
+
+#startPage img{
+	display: block;
+	margin: 150px auto;
+	width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
